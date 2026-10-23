@@ -1,0 +1,35 @@
+footer {
+    max-width: 1440px;
+    background-color: #2e4357;
+}
+
+.container-footer {
+    max-width: 1220px;
+    margin: 24px 110px 24px 110px;
+}
+
+.box-input {
+    position: relative;
+}
+
+.form-input {
+    border-radius: 100px;
+    width: 249px;
+    height: 44px;
+}
+
+.footer-column-1, .footer-column-2, .footer-column-3, .footer-column-4 {
+
+}
+
+.button-form {
+    position: absolute;
+    top: 3px;
+    right: 6px;
+    bottom: 3px;
+    width: 60px;
+    height: 32px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
