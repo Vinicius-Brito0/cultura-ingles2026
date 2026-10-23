@@ -1,0 +1,67 @@
+/* --- Cabeçalho e Logo Centralizada --- */
+.navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+    .navbar-brand-centered img {
+        height: 32px; /* Reduz um pouco em telas menores se necessário */
+    }
+}
+
+/* --- Menu Lateral (Offcanvas) --- */
+.custom-offcanvas {
+    background-color: #0E3A74 !important;
+    border-top-right-radius: 28px !important;
+    border-bottom-right-radius: 28px !important;
+    width: 340px !important;
+}
+
+/* Remove marcadores padrão da lista */
+.offcanvas-body ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+}
+
+.offcanvas-header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 12px; 
+    padding: 1.5rem !important;
+    border-bottom: none !important; 
+}
+#submenuCursos .nav-link {
+    color: #ffffff !important;
+    opacity: 0.85; 
+}
+
+#submenuCursos .nav-link:hover {
+    opacity: 1;
+}
+
+.btn-cursos[aria-expanded="true"] {
+    color: #E31C14 !important;
+}
+
+.btn-cursos[aria-expanded="true"] .bi-chevron-down {
+    transform: rotate(180deg);
+}
+
+.bi-chevron-down {
+    transition: transform 0.2s ease-in-out;
+}
+
+.custom-offcanvas .btn-outline-light {
+    border-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50rem !important;
+}
+
+.custom-offcanvas .btn-danger {
+    background-color: #E31C14 !important;
+    border: none !important;
+    border-radius: 50rem !important;
+}
