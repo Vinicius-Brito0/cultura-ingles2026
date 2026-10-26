@@ -1,7 +1,18 @@
+body {
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+}
+
 footer {
     max-width: 1440px;
-    background-color: #2e4357;
 }
+
+:root{
+    --blue: #092F5C;
+    --gray: #6B7280;
+}
+
 
 .container-footer {
     max-width: 1220px;
@@ -18,18 +29,27 @@ footer {
     height: 44px;
 }
 
-.footer-column-1, .footer-column-2, .footer-column-3, .footer-column-4 {
-
-}
-
 .button-form {
     position: absolute;
     top: 3px;
-    right: 6px;
+    right: px;
     bottom: 3px;
+    left: 183px;
     width: 60px;
     height: 32px;
     border-radius: 30px;
     font-size: 16px;
     font-weight: bold;
+}
+
+.text-blue {
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text-gray {
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: regular;
 }
