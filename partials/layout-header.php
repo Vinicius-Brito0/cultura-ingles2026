@@ -16,7 +16,7 @@
 
             <!-- Logo Centralizada -->
             <a class="navbar-brand navbar-brand-centered m-0" href="/" aria-label="Página inicial da Cultura Inglesa">
-                <img src="assets/images/cultura-inglesa-logo.webp" alt="Cultura Inglesa" height="40">
+                <img src="assets/images/_temp/cultura-inglesa-logo.webp" alt="Cultura Inglesa" height="40">
             </a>
 
             <!-- Botão do Portal do Aluno -->

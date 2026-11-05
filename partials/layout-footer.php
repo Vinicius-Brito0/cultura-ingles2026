@@ -1,4 +1,4 @@
-<footer class="bg-white border-top" aria-label="Rodapé">
+<footer class="bg-white">
   <div class="container py-5">
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4">
@@ -6,7 +6,7 @@
       <!-- Marca e redes sociais -->
       <div class="col">
         <figure class="mb-0">
-          <img src="assets/images/cultura-inglesa-logo.webp" alt="Cultura Inglesa" height="40" class="img-fluid">
+          <img src="assets/images/_temp/cultura-inglesa-logo.webp" alt="Cultura Inglesa" height="40" class="img-fluid">
           <figcaption class="text-gray mt-3">
             Há mais de 90 anos oferecendo um ensino de excelência.
           </figcaption>
@@ -14,18 +14,18 @@
 
         <ul class="social-icons list-unstyled d-flex gap-3 mt-4 mb-0">
           <li>
-            <a href="#" class="text-gray" aria-label="Instagram da Cultura Inglesa" target="_blank" rel="noopener noreferrer">
-              <i class="social-icon fa-brands fa-instagram fa-lg" aria-hidden="true"></i>
+            <a href="#" class="text-gray">
+              <i class="social-icon fa-brands fa-instagram fa-lg"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="text-gray" aria-label="Twitter da Cultura Inglesa" target="_blank" rel="noopener noreferrer">
-              <i class="social-icon fa-brands fa-twitter fa-lg" aria-hidden="true"></i>
+            <a href="#" class="text-gray">
+              <i class="social-icon fa-brands fa-twitter fa-lg"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="text-gray" aria-label="Facebook da Cultura Inglesa" target="_blank" rel="noopener noreferrer">
-              <i class="social-icon fa-brands fa-facebook-f fa-lg" aria-hidden="true"></i>
+            <a href="#" class="text-gray">
+              <i class="social-icon fa-brands fa-facebook-f fa-lg"></i>
             </a>
           </li>
         </ul>
@@ -76,13 +76,13 @@
       <!-- Newsletter -->
       <div class="col footer-column-4">
         <h2 class="h5 text-blue">Assine nossa Newsletter</h2>
-        <form action="#" method="post">
+        <form>
           <label for="email-footer" class="form-label text-gray mb-2">
             Cadastre seu e-mail e acompanhe as novidades.
           </label>
           <div class="input-group">
             <input type="email" class="form-control" id="email-footer" name="email"
-                   placeholder="Seu e-mail" autocomplete="email" required>
+                   placeholder="Seu e-mail" required>
             <button type="submit" class="btn btn-danger">Enviar</button>
           </div>
         </form>
@@ -90,9 +90,8 @@
 
     </div>
 
-    <!-- Barra inferior (fora do .row) -->
     <div class="container-down-footer d-flex flex-column flex-md-row justify-content-between gap-2 border-top pt-4 mt-5">
-      <p class="text-gray small mb-0">&copy; <?= date('Y') ?> Cultura Inglesa - Todos os direitos reservados</p>
+      <p class="text-gray small mb-0">&copy 2026 Cultura Inglesa - Todos os direitos reservados</p>
       <a href="#" class="text-gray small text-decoration-none">Política de Privacidade</a>
     </div>
 

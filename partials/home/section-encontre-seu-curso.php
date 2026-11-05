@@ -5,7 +5,7 @@
                 Encontre seu curso
             </small> <br>
 
-            Inglês para cada faseda sua jornada
+            Inglês para cada fase da sua jornada
 
 
         </h2>
